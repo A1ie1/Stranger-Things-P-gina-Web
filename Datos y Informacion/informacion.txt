@@ -4,35 +4,26 @@
 
 [Subtitulo] Información de los Personajes:
 
+[Subtitulo2] Mike Wheeler:
+Mike es uno de los personajes principales y líder del grupo de amigos. Es inteligente, valiente y muy cercano a Eleven. Su determinación por encontrar a Will en la primera temporada lo lleva a descubrir los misterios que acechan a Hawkins.
+
 [Subtitulo2] Eleven ("Once"):
-Eleven, también conocida como El/Ella, es una joven con habilidades psíquicas extraordinarias. Rescatada por Mike y su pandilla, Eleven escapó de un laboratorio gubernamental donde fue sometida a experimentos. Su búsqueda de identidad y su lucha contra fuerzas oscuras han sido centrales en la serie.
-
-[Subtitulo2] Billy Hargrove:
-Billy es el hermanastro de Max y un personaje complejo. Es un matón y tiene problemas familiares, pero también muestra vulnerabilidad. En la temporada 3, es manipulado por fuerzas sobrenaturales. Su característica distintiva es su carácter impulsivo y agresivo.
-
-[Subtitulo2] Steve Harrington:
-Steve es un personaje que ha evolucionado desde ser el típico chico popular de la escuela secundaria hasta un amigo y protector leal. Su papel como figura paternal para los niños, especialmente Dustin, ha sido clave en la historia.
-
-[Subtitulo2] Eddie Munson:
-Eddie es un nuevo personaje en la serie, presentado en la cuarta temporada. Es un nerd con una fascinación por los ovnis y se convierte en un aliado importante para el grupo en su enfrentamiento contra las fuerzas sobrenaturales.
+Eleven, también conocida como El o Jane Ives, es una joven con habilidades psíquicas extraordinarias. Rescatada por Mike y su pandilla, Eleven escapa de un laboratorio gubernamental donde fue sometida a experimentos. Su búsqueda de identidad y su lucha contra fuerzas oscuras han sido centrales en la serie.
 
 [Subtitulo2] Max Mayfield:
-Max es la hermanastra de Billy, una patinadora experta que se une al grupo de amigos en la segunda temporada. Tiene una personalidad fuerte y aporta dinamismo al grupo.
+Max es la nueva integrante del grupo en la segunda temporada. Es una experta patinadora y tiene una personalidad fuerte y decidida. Max aporta un aire fresco al grupo y se convierte en una valiosa aliada en la lucha contra lo sobrenatural.
 
 [Subtitulo2] Dustin Henderson:
-Dustin es un miembro esencial del grupo de amigos. Es inteligente, curioso y siempre está tratando de resolver los misterios que enfrentan. Su humor y su amor por la ciencia lo hacen querido por todos.
+Dustin es el bromista del grupo con una pasión por la ciencia. Es ingenioso, leal y siempre está dispuesto a ayudar a sus amigos. Su inteligencia y humor han sido cruciales en muchas situaciones peligrosas.
 
 [Subtitulo2] Will Byers:
-Will es el niño que desaparece al comienzo de la serie, lo que desencadena los eventos sobrenaturales. Aunque ha pasado por mucho trauma, Will es sensible y tiene una conexión única con el Otro Lado.
+Will es el niño que desaparece al principio de la serie, lo que desencadena la búsqueda de sus amigos. Aunque pasa la mayor parte de la serie enfrentando experiencias traumáticas, Will es sensible y tiene una conexión especial con el Otro Lado.
 
-[Subtitulo2] Mike Wheeler:
-Mike es el líder del grupo de amigos y uno de los principales protagonistas. Es cercano a Eleven y está constantemente luchando por proteger a sus seres queridos de las fuerzas oscuras que acechan Hawkins.
+[Subtitulo2] Lucas Sinclair:
+Lucas es uno de los amigos cercanos de Mike. Es inteligente, valiente y a menudo actúa como el realista del grupo. Su papel es clave en la búsqueda de Will y enfrentando las amenazas sobrenaturales de Hawkins.
 
-[Subtitulo2] Nancy Wheeler:
-Nancy es la hermana mayor de Mike y una investigadora nata. Trabaja incansablemente para exponer los secretos del Laboratorio Nacional de Hawkins y ha demostrado ser valiente y decidida en la lucha contra el mal.
-
-[Subtitulo2] Robin Buckley:
-Robin es una nueva incorporación en la tercera temporada y trabaja con Steve en Scoops Ahoy, una heladería en el centro comercial. Es inteligente, ingeniosa y juega un papel importante en descifrar los misterios de la conspiración soviética en la temporada 3.
+[Subtitulo2] Steve Harrington:
+Steve comienza como el típico chico popular de la escuela secundaria, pero evoluciona para convertirse en un aliado valioso y protector de los niños. Su relación con Dustin en particular muestra su crecimiento como personaje a lo largo de la serie.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
