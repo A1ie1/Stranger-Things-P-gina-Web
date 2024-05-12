@@ -26,4 +26,16 @@ Lucas es uno de los amigos cercanos de Mike. Es inteligente, valiente y a menudo
 Steve comienza como el típico chico popular de la escuela secundaria, pero evoluciona para convertirse en un aliado valioso y protector de los niños. Su relación con Dustin en particular muestra su crecimiento como personaje a lo largo de la serie.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[Subtitulo] Información de las temporadas:
 
+[subtitulos2] Temporada 1:
+Se centra en la desaparición de Will Byers en Hawkins, Indiana, y el descubrimiento de una niña con habilidades psíquicas llamada Eleven. Los amigos de Will, junto con Eleven, enfrentan a un monstruo de otra dimensión conocido como el Demogorgon.
+
+[subtitulos2] Temporada 2:
+Después de los eventos de la primera temporada, Hawkins sigue lidiando con las secuelas del Upside Down. Mientras tanto, Will experimenta visiones perturbadoras, y un nuevo peligro amenaza a la ciudad.
+
+[subtitulos2] Temporada 3:
+En el verano de 1985, la pandilla enfrenta nuevos desafíos mientras el Starcourt Mall se convierte en el centro de actividad sobrenatural en Hawkins. Mientras tanto, fuerzas malignas resurgen y amenazan con destruir todo.
+
+[subtitulos2] Temporada 4:
+Con la reaparición de un viejo enemigo, el equipo se enfrenta a su desafío más oscuro hasta el momento. Secretos enterrados salen a la luz y la lucha por Hawkins alcanza nuevas alturas mientras el pasado y el presente se entrelazan de manera peligrosa.
