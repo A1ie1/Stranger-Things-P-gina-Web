@@ -2,9 +2,16 @@
 body {
   font-family: 'Teko', sans-serif; 
   color: #fff;
-  background-color: #000; 
+  background-color: #000000; 
 }
 
+subtitle {
+  font-size: 50px;
+  font-family: Lulo Clean;
+  color:#ff1515;
+  
+
+}
 /* Headings */
 h1, h2, h3 {
   text-transform: uppercase; 
@@ -21,12 +28,12 @@ p {
 
 
 .neon-text {
-  text-shadow: 0 0 10px #007bff; 
+  text-shadow: 0 0 10px #740000; 
 }
 
 
 .outlined-text {
-  text-shadow: -1px -1px 0 #007bff, 1px 1px 0 #007bff, 2px 2px 0 #007bff; 
+  text-shadow: -1px -1px 0 #740000, 1px 1px 0 #740000, 2px 2px 0 #740000; 
 }
 
 
@@ -51,7 +58,7 @@ nav a {
   transition: color 0.3s ease;
 }
 nav a:hover {
-  color: #007bff; 
+  color: #740000; 
 }
 
 /* Header Styles */
@@ -81,3 +88,53 @@ section h2 {
   color: #fff; 
   text-align: center; 
 }
+
+.slider-box {
+  width: 1280px;
+  height: auto;
+  margin: 50px auto 0;
+  overflow: hidden;
+}
+
+.slider-box ul {
+  display: flex;
+  padding: 0;
+  width: 700%;
+  animation: slide 40s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+  width: 100%;
+  list-style: none;
+  position: relative;
+
+}
+
+.slider-box img {
+  width: 100%
+}
+
+@keyframes slide{
+  0% { margin-left: 0; }
+  14% { margin-left: 0; }
+
+  14% { margin-left: -100%; }
+  28% { margin-left: -100%; }
+
+  28% { margin-left: -200%; }
+  42% { margin-left: -200%; }
+
+  42% { margin-left: -300%; }
+  56% { margin-left: -300%; }
+
+  56% { margin-left: -400%; }
+  70% { margin-left: -400%; }
+
+  70% { margin-left: -500%; }
+  84% { margin-left: -500%; }
+
+  84% { margin-left: -600%; }
+  100% { margin-left: -600%; }
+}
+
+
