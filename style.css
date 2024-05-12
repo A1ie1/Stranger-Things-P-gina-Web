@@ -1,4 +1,10 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
 body {
   font-family: 'Teko', sans-serif; 
   color: #fff;
@@ -6,12 +12,14 @@ body {
 }
 
 subtitle {
-  font-size: 50px;
+  font-size: 60px;
   font-family: Lulo Clean;
   color:#ff1515;
-  
-
+  margin-left: 120px;
+  margin-right: 120px;
 }
+
+
 /* Headings */
 h1, h2, h3 {
   text-transform: uppercase; 
@@ -23,7 +31,14 @@ h1, h2, h3 {
 
 p {
   line-height: 1.6; 
-  margin-bottom: 20px; 
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Overpass;
+  font-size: 18px;
+  line-height: 200%
+
 }
 
 
@@ -54,7 +69,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   font-family: 'Teko', sans-serif; 
-  font-size: 14px;
+  font-size: 20px;
   transition: color 0.3s ease;
 }
 nav a:hover {
@@ -65,6 +80,8 @@ nav a:hover {
 header {
   text-align: center;
   padding: 20px;
+  margin-bottom: 35px;
+
 }
 
 header img {
