@@ -4,13 +4,16 @@
 
 [Subtitulo] Donde sacamos el tipo de fuente:
 
-Nos guiamos del tipo de letra de la página de Google Fonts: https://fonts.google.com/
+Nos guiamos de los siguientes tipos de letras para la creación del texto de la página web:
+- Google Fonts: https://fonts.google.com/
+- CDNFonts: https://www.cdnfonts.com/lulo-clean.font
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [Subtitulo2] Candidatos a Tipos de Letra:
-1° Sedgwick Ave Display (Titulo)
-2° Shadows into Lights (Subtitulo)
-3° IBM Plex Sans (Subtitulo)
-5° Overpass (Texto)
+1. Roboto (Titulo)
+2. Lulo Clean (Subtitulo)
+3. Overpass (Texto)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
