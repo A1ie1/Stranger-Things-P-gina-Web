@@ -135,3 +135,65 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado con Imágenes y Títulos</title>
+    <style>
+        /* Estilos para el contenedor principal */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Estilos para cada elemento de la lista */
+        .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        /* Estilos para la imagen */
+        .item img {
+            width: 100px; /* Ajusta el tamaño según necesites */
+            height: auto;
+            margin-right: 20px;
+        }
+        /* Estilos para el título */
+        .item h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        /* Estilos para la descripción */
+        .item p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="ruta/a/la/imagen1.jpg" alt="Imagen 1">
+            <div class="info">
+                <h3>Título de la Imagen 1</h3>
+                <p>Descripción breve de la Imagen 1.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="ruta/a/la/imagen2.jpg" alt="Imagen 2">
+            <div class="info">
+                <h3>Título de la Imagen 2</h3>
+                <p>Descripción breve de la Imagen 2.</p>
+            </div>
+        </div>
+        <!-- Agrega más elementos de lista según sea necesario -->
+    </div>
+</body>
+</html>
