@@ -2,6 +2,13 @@
 [Titulo] En este apartado se colocará toda la información previa para la creación de la página web, incluyendo la descripción de los personajes principales:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+[Subtitulo] Informacion de la Sinopsis:
+Stranger Things es una serie de televisión web estadounidense que combina drama, suspenso, ciencia ficción y terror. Fue creada por los hermanos Matt y Ross Duffer y se estrenó en Netflix el 15 de julio de 2016. 
+La historia está ambientada en la década de los 80 en el pueblo ficticio de Hawkins, Indiana, Estados Unidos. Todo comienza cuando un niño de 12 años llamado Will Byers desaparece misteriosamente sin dejar rastro en 1983. 
+A medida que la trama se desarrolla, los residentes de Hawkins se enfrentan a una dimensión alternativa hostil conocida como Upside Down. Esta dimensión se conecta con el mundo normal a través de una puerta abierta por una instalación de experimentación humana cercana. El reparto incluye a Winona Ryder, David Harbour, Finn Wolfhard, Millie Bobby Brown y otros talentosos actores.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 [Subtitulo] Información de los Personajes:
 
 [Subtitulo2] Mike Wheeler:
@@ -28,14 +35,16 @@ Steve comienza como el típico chico popular de la escuela secundaria, pero evol
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 [Subtitulo] Información de las temporadas:
 
-[subtitulos2] Temporada 1:
+[subtitulo2] Temporada 1:
 Se centra en la desaparición de Will Byers en Hawkins, Indiana, y el descubrimiento de una niña con habilidades psíquicas llamada Eleven. Los amigos de Will, junto con Eleven, enfrentan a un monstruo de otra dimensión conocido como el Demogorgon.
 
-[subtitulos2] Temporada 2:
+[subtitulo2] Temporada 2:
 Después de los eventos de la primera temporada, Hawkins sigue lidiando con las secuelas del Upside Down. Mientras tanto, Will experimenta visiones perturbadoras, y un nuevo peligro amenaza a la ciudad.
 
-[subtitulos2] Temporada 3:
+[subtitulo2] Temporada 3:
 En el verano de 1985, la pandilla enfrenta nuevos desafíos mientras el Starcourt Mall se convierte en el centro de actividad sobrenatural en Hawkins. Mientras tanto, fuerzas malignas resurgen y amenazan con destruir todo.
 
-[subtitulos2] Temporada 4:
-Con la reaparición de un viejo enemigo, el equipo se enfrenta a su desafío más oscuro hasta el momento. Secretos enterrados salen a la luz y la lucha por Hawkins alcanza nuevas alturas mientras el pasado y el presente se entrelazan de manera peligrosa.
+[subtitulo2] Temporada 4:
+Con la reaparición de un viejo enemigo, el equipo se enfrenta a su desafío más oscuro hasta el momento. Secretos enterrados salen a la luz y la lucha por Hawkins alcanza nuevas alturas mientras el pasado y el presente se entrelazan de manera peligrosa.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
