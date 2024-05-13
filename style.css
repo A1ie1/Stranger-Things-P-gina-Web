@@ -15,8 +15,8 @@ subtitle {
   font-size: 60px;
   font-family: Lulo Clean;
   color:#ff1515;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 
@@ -31,8 +31,8 @@ h1, h2, h3 {
 
 p {
   line-height: 1.6; 
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
   margin-bottom: 30px;
   text-align: center;
   font-family: Overpass;
@@ -154,4 +154,12 @@ section h2 {
   100% { margin-left: -600%; }
 }
 
+/* Otros estilos CSS existentes */
 
+.centered-image {
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.centered-image img {
+  width: 80%; /* Cambia el valor según lo grande que quieras que sea la imagen */
+}
