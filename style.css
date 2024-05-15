@@ -17,6 +17,7 @@ subtitle {
   color:#ff1515;
   margin-left: 250px;
   margin-right: 250px;
+  margin-top: 20px;
 }
 
 
@@ -180,7 +181,7 @@ section h2 {
 .temporadas-list img {
   width: 100%;
   height: auto;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #000000;
 }
 
 .temporada-info {
@@ -188,13 +189,13 @@ section h2 {
 }
 
 .temporada-info h3 {
-  color: #fff;
+  color: #000000;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
 .temporada-info p {
-  color: #ccc;
+  color: #000000;
   font-size: 16px;
 }
 
@@ -202,51 +203,44 @@ section h2 {
 #temporadas {
   padding: 20px;
   background-color: #000000;
-  color: #fff;
 }
 
 .temporada-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.temporada-list li {
-  width: 48%;
-  margin-bottom: 20px;
-  background-color: transparent;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex; /* Para alinear imagen y contenido */
+.temporada-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
 
-.temporada-list li:nth-child(odd) {
-  flex-direction: row-reverse;
-}
-
-.temporada-list li:nth-child(even) {
-  flex-direction: row;
-}
-
-.temporada-list img {
-  width: 40%; /* Tamaño de la imagen ajustado */
-  height: auto;
-  margin-right: 20px; /* Margen a la derecha de la imagen */
+.temporada-content {
+  text-align: center;
 }
 
 .temporada-info {
-  flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
-  padding: 10px; /* Espaciado interno del contenido */
+  margin-top: 20px;
 }
 
 .temporada-info h3 {
-  font-size: 1.6em; /* Tamaño del título de la temporada */
+  font-size: 24px;
   margin-bottom: 10px;
+  color: #ff1515; /* Color rojo para el título */
 }
 
 .temporada-info p {
-  font-size: 1.2em; /* Tamaño del texto de la temporada */
-  line-height: 1.4;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000; /* Color negro para el texto */
+}
+
+.temporada-content img {
+  width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+  max-width: 600px; /* Establece el máximo ancho de la imagen */
+  margin-top: 20px; /* Espacio superior entre texto e imagen */
 }
