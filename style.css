@@ -201,8 +201,8 @@ section h2 {
 /* Estilos para la sección de temporadas */
 #temporadas {
   padding: 20px;
-  background-color: #000000; /* Cambia el color de fondo a negro */
-  color: #fff; /* Cambia el color del texto a blanco */
+  background-color: #000000;
+  color: #fff;
 }
 
 .temporada-list {
@@ -215,36 +215,38 @@ section h2 {
 }
 
 .temporada-list li {
-  width: 48%; /* Ancho de cada elemento de temporada */
+  width: 48%;
   margin-bottom: 20px;
-  background-color: transparent; /* Fondo transparente para cada temporada */
+  background-color: transparent;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex; /* Para alinear imagen y contenido */
 }
 
 .temporada-list li:nth-child(odd) {
-  flex-direction: row-reverse; /* Alinea alternadamente en zigzag */
+  flex-direction: row-reverse;
 }
 
 .temporada-list li:nth-child(even) {
-  flex-direction: row; /* Alinea alternadamente en zigzag */
+  flex-direction: row;
 }
 
 .temporada-list img {
-  width: 100%;
+  width: 40%; /* Tamaño de la imagen ajustado */
   height: auto;
+  margin-right: 20px; /* Margen a la derecha de la imagen */
 }
 
 .temporada-info {
-  padding: 20px;
+  flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+  padding: 10px; /* Espaciado interno del contenido */
 }
 
 .temporada-info h3 {
-  text-align: center;
-  font-size: 1.5em;
+  font-size: 1.6em; /* Tamaño del título de la temporada */
   margin-bottom: 10px;
 }
 
 .temporada-info p {
-  font-size: 1em;
+  font-size: 1.2em; /* Tamaño del texto de la temporada */
   line-height: 1.4;
 }
