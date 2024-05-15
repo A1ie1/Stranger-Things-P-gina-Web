@@ -284,3 +284,29 @@ section h2 {
   max-width: 600px; /* Establece el máximo ancho de la imagen */
   margin-top: 20px; /* Espacio superior entre texto e imagen */
 }
+
+/* diseño trailers */
+.trailers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.trailer {
+  width: 300px;
+  margin-bottom: 20px;
+  background-color: #000000;
+  box-shadow: 0 2px 4px rgba(192, 15, 15, 0.904);
+}
+
+.trailer iframe {
+  width: 100%;
+  height: 200px;
+}
+
+.trailer p {
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
