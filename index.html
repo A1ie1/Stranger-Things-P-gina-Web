@@ -120,11 +120,25 @@
     </section>  
 
     <section id="trailers">
-      <CENTER><subtitle>Trailers</subtitle></CENTER>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/x7Yq9MJUqjY?si=wHwfftDMMAaYHfmt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/2RKHhfls0Fo?si=ggMA3eWbnhrp_CJp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6BnPEXNt0Vo?si=7b3MeFhY1VgKRd3-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/32qjg3lg7gA?si=lePyWfpXiqZd_tqv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+        <div class="trailers">
+            <div class="trailer">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/x7Yq9MJUqjY?rel=0" frameborder="0" allowfullscreen></iframe>
+                <p>Description for Trailer 1</p>
+            </div>
+            <div class="trailer">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/2RKHhfls0Fo?rel=0" frameborder="0" allowfullscreen></iframe>
+                <p>Description for Trailer 2</p>
+            </div>
+            <div class="trailer">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/6BnPEXNt0Vo?rel=0" frameborder="0" allowfullscreen></iframe>
+                <p>Description for Trailer 3</p>
+            </div>
+            <div class="trailer">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/32qjg3lg7gA?rel=0" frameborder="0" allowfullscreen></iframe>
+                <p>Description for Trailer 4</p>
+            </div>
+        </div>
+        
     </section>    
 
 
@@ -137,63 +151,3 @@
 </html>
 
 
-
-html
-Copy code
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listado con Imágenes y Títulos</title>
-    <style>
-        /* Estilos para el contenedor principal */
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        /* Estilos para cada elemento de la lista */
-        .item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        /* Estilos para la imagen */
-        .item img {
-            width: 100px; /* Ajusta el tamaño según necesites */
-            height: auto;
-            margin-right: 20px;
-        }
-        /* Estilos para el título */
-        .item h3 {
-            margin: 0;
-            font-size: 1.2em;
-        }
-        /* Estilos para la descripción */
-        .item p {
-            margin: 5px 0;
-            font-size: 1em;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="item">
-            <img src="ruta/a/la/imagen1.jpg" alt="Imagen 1">
-            <div class="info">
-                <h3>Título de la Imagen 1</h3>
-                <p>Descripción breve de la Imagen 1.</p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="ruta/a/la/imagen2.jpg" alt="Imagen 2">
-            <div class="info">
-                <h3>Título de la Imagen 2</h3>
-                <p>Descripción breve de la Imagen 2.</p>
-            </div>
-        </div>
-        <!-- Agrega más elementos de lista según sea necesario -->
-    </div>
-</body>
-</html>
