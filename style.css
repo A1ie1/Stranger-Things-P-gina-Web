@@ -1,20 +1,21 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
 }
+
 body {
-  font-family: 'Teko', sans-serif; 
+  font-family: 'Teko', sans-serif;
   color: #fff;
-  background-color: #000000; 
+  background-color: #000000;
 }
 
 subtitle {
   font-size: 60px;
   font-family: Lulo Clean;
-  color:#ff1515;
+  color: #ff1515;
   margin-left: 250px;
   margin-right: 250px;
   margin-top: 20px;
@@ -22,16 +23,18 @@ subtitle {
 
 
 /* Headings */
-h1, h2, h3 {
-  text-transform: uppercase; 
-  font-weight: bold; 
-  letter-spacing: 2px; 
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 
 p {
-  line-height: 1.6; 
+  line-height: 1.6;
   margin-left: 250px;
   margin-right: 250px;
   margin-bottom: 30px;
@@ -39,17 +42,16 @@ p {
   font-family: Overpass;
   font-size: 18px;
   line-height: 200%
-
 }
 
 
 .neon-text {
-  text-shadow: 0 0 10px #740000; 
+  text-shadow: 0 0 10px #740000;
 }
 
 
 .outlined-text {
-  text-shadow: -1px -1px 0 #740000, 1px 1px 0 #740000, 2px 2px 0 #740000; 
+  text-shadow: -1px -1px 0 #740000, 1px 1px 0 #740000, 2px 2px 0 #740000;
 }
 
 
@@ -69,12 +71,13 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-family: 'Teko', sans-serif; 
+  font-family: 'Teko', sans-serif;
   font-size: 20px;
   transition: color 0.3s ease;
 }
+
 nav a:hover {
-  color: #740000; 
+  color: #740000;
 }
 
 /* Header Styles */
@@ -101,10 +104,10 @@ section {
 }
 
 section h2 {
-  font-family: 'Noto Serif', serif; 
+  font-family: 'Noto Serif', serif;
   font-weight: 700;
-  color: #fff; 
-  text-align: center; 
+  color: #fff;
+  text-align: center;
 }
 
 .slider-box {
@@ -132,37 +135,74 @@ section h2 {
   width: 100%
 }
 
-@keyframes slide{
-  0% { margin-left: 0; }
-  14% { margin-left: 0; }
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
 
-  14% { margin-left: -100%; }
-  28% { margin-left: -100%; }
+  14% {
+    margin-left: 0;
+  }
 
-  28% { margin-left: -200%; }
-  42% { margin-left: -200%; }
+  14% {
+    margin-left: -100%;
+  }
 
-  42% { margin-left: -300%; }
-  56% { margin-left: -300%; }
+  28% {
+    margin-left: -100%;
+  }
 
-  56% { margin-left: -400%; }
-  70% { margin-left: -400%; }
+  28% {
+    margin-left: -200%;
+  }
 
-  70% { margin-left: -500%; }
-  84% { margin-left: -500%; }
+  42% {
+    margin-left: -200%;
+  }
 
-  84% { margin-left: -600%; }
-  100% { margin-left: -600%; }
+  42% {
+    margin-left: -300%;
+  }
+
+  56% {
+    margin-left: -300%;
+  }
+
+  56% {
+    margin-left: -400%;
+  }
+
+  70% {
+    margin-left: -400%;
+  }
+
+  70% {
+    margin-left: -500%;
+  }
+
+  84% {
+    margin-left: -500%;
+  }
+
+  84% {
+    margin-left: -600%;
+  }
+
+  100% {
+    margin-left: -600%;
+  }
 }
 
 /* Otros estilos CSS existentes */
 
 .centered-image {
-  text-align: center; /* Centra el contenido horizontalmente */
+  text-align: center;
+  /* Centra el contenido horizontalmente */
 }
 
 .centered-image img {
-  width: 80%; /* Cambia el valor según lo grande que quieras que sea la imagen */
+  width: 80%;
+  /* Cambia el valor según lo grande que quieras que sea la imagen */
 }
 
 .temporadas-list {
