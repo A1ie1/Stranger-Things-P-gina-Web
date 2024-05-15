@@ -163,3 +163,88 @@ section h2 {
 .centered-image img {
   width: 80%; /* Cambia el valor según lo grande que quieras que sea la imagen */
 }
+
+.temporadas-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.temporadas-list li {
+  list-style: none;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.temporadas-list img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #fff;
+}
+
+.temporada-info {
+  padding: 20px;
+}
+
+.temporada-info h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.temporada-info p {
+  color: #ccc;
+  font-size: 16px;
+}
+
+/* Estilos para la sección de temporadas */
+#temporadas {
+  padding: 20px;
+  background-color: #000000; /* Cambia el color de fondo a negro */
+  color: #fff; /* Cambia el color del texto a blanco */
+}
+
+.temporada-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.temporada-list li {
+  width: 48%; /* Ancho de cada elemento de temporada */
+  margin-bottom: 20px;
+  background-color: transparent; /* Fondo transparente para cada temporada */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.temporada-list li:nth-child(odd) {
+  flex-direction: row-reverse; /* Alinea alternadamente en zigzag */
+}
+
+.temporada-list li:nth-child(even) {
+  flex-direction: row; /* Alinea alternadamente en zigzag */
+}
+
+.temporada-list img {
+  width: 100%;
+  height: auto;
+}
+
+.temporada-info {
+  padding: 20px;
+}
+
+.temporada-info h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.temporada-info p {
+  font-size: 1em;
+  line-height: 1.4;
+}
