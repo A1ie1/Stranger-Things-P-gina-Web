@@ -14,11 +14,10 @@ body {
 }
 
 subtitle {
-  font-size: 70px;
+  font-size: 5vw;
   font-family: Lulo Clean;
   color: #ff1515;
-  margin-left: 250px;
-  margin-right: 250px;
+  
   margin-top: 20px;
 }
 
@@ -36,12 +35,12 @@ h3 {
 
 p {
   line-height: 1.6;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 12%;
+  margin-right: 12%;
   margin-bottom: 30px;
   text-align: center;
   font-family: Overpass;
-  font-size: 18px;
+  font-size: 1vw;
   line-height: 200%
 }
 
@@ -158,6 +157,16 @@ section h2 {
 
   85% { margin-left: -600%; }
   100% { margin-left: -600%; }
+}
+
+@media(max-width:991px) {
+  body {
+    padding: 30px;
+  }
+
+  .slider-box {
+    width: 100%;
+  }
 }
 /* Otros estilos CSS existentes */
 
