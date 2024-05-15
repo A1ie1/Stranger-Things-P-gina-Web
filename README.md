@@ -25,3 +25,5 @@ La serie está repleta de referencias a clásicos de los años 80 como "E.T.", "
 6. **Lucas Sinclair**: Inteligente y valiente, actúa como el realista del grupo.
 
 7. **Steve Harrington**: Evoluciona de chico popular a aliado valioso y protector de los niños.
+
+

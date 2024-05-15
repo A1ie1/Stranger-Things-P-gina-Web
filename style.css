@@ -1,32 +1,58 @@
-
-body {
-  font-family: 'Teko', sans-serif; 
-  color: #fff;
-  background-color: #000; 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
+body {
+  font-family: 'Teko', sans-serif;
+  color: #fff;
+  background-color: #000; 
+  background-color: #000000;
+}
+
+subtitle {
+  font-size: 60px;
+  font-family: Lulo Clean;
+  color: #ff1515;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 20px;
+}
+
+
 /* Headings */
-h1, h2, h3 {
-  text-transform: uppercase; 
-  font-weight: bold; 
-  letter-spacing: 2px; 
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 
 p {
-  line-height: 1.6; 
-  margin-bottom: 20px; 
+  line-height: 1.6;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Overpass;
+  font-size: 18px;
+  line-height: 200%
 }
 
 
 .neon-text {
-  text-shadow: 0 0 10px #007bff; 
+  text-shadow: 0 0 10px #740000;
 }
 
 
 .outlined-text {
-  text-shadow: -1px -1px 0 #007bff, 1px 1px 0 #007bff, 2px 2px 0 #007bff; 
+  text-shadow: -1px -1px 0 #740000, 1px 1px 0 #740000, 2px 2px 0 #740000;
 }
 
 
@@ -46,18 +72,21 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-family: 'Teko', sans-serif; 
-  font-size: 14px;
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
   transition: color 0.3s ease;
 }
+
 nav a:hover {
-  color: #007bff; 
+  color: #740000;
 }
 
 /* Header Styles */
 header {
   text-align: center;
   padding: 20px;
+  margin-bottom: 35px;
+
 }
 
 header img {
@@ -76,8 +105,190 @@ section {
 }
 
 section h2 {
-  font-family: 'Noto Serif', serif; 
+  font-family: 'Noto Serif', serif;
   font-weight: 700;
-  color: #fff; 
-  text-align: center; 
+  color: #fff;
+  text-align: center;
+}
+
+.slider-box {
+  width: 1280px;
+  height: auto;
+  margin: 50px auto 0;
+  overflow: hidden;
+}
+
+.slider-box ul {
+  display: flex;
+  padding: 0;
+  width: 700%;
+  animation: slide 100s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+  width: 100%;
+  list-style: none;
+  position: relative;
+
+}
+
+.slider-box img {
+  width: 100%
+}
+
+
+@keyframes slide{
+  0% { margin-left: 0; }
+  10% { margin-left: 0; }
+
+  15% { margin-left: -100%; }
+  25% { margin-left: -100%; }
+
+  30% { margin-left: -200%; }
+  40% { margin-left: -200%; }
+
+  45% { margin-left: -300%; }
+  50% { margin-left: -300%; }
+
+  55% { margin-left: -400%; }
+  65% { margin-left: -400%; }
+
+  70% { margin-left: -500%; }
+  80% { margin-left: -500%; }
+
+  85% { margin-left: -600%; }
+  100% { margin-left: -600%; }
+}
+/* Otros estilos CSS existentes */
+
+.centered-image {
+  text-align: center;
+  /* Centra el contenido horizontalmente */
+}
+
+.centered-image img {
+  width: 80%;
+  /* Cambia el valor según lo grande que quieras que sea la imagen */
+}
+
+HEAD
+.warpper {
+  margin: 150px auto;
+  width: 70%;
+}
+
+.imagenxd{
+  max-width: 320px;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 15px;
+  
+}
+
+.temporadas-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.temporadas-list li {
+  list-style: none;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.temporadas-list img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #000000;
+}
+
+.temporada-info {
+  padding: 20px;
+}
+
+.temporada-info h3 {
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.temporada-info p {
+  color: #000000;
+  font-size: 16px;
+}
+
+/* Estilos para la sección de temporadas */
+#temporadas {
+  padding: 20px;
+  background-color: #000000;
+}
+
+.temporada-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.temporada-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.temporada-content {
+  text-align: center;
+}
+
+.temporada-info {
+  margin-top: 20px;
+}
+
+.temporada-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ff1515; /* Color rojo para el título */
+}
+
+.temporada-info p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000; /* Color negro para el texto */
+}
+
+.temporada-content img {
+  width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+  max-width: 600px; /* Establece el máximo ancho de la imagen */
+  margin-top: 20px; /* Espacio superior entre texto e imagen */
+}
+
+/* diseño trailers */
+.trailers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.trailer {
+  width: 300px;
+  margin-bottom: 20px;
+  background-color: #000000;
+  box-shadow: 0 2px 4px rgba(192, 15, 15, 0.904);
+}
+
+.trailer iframe {
+  width: 100%;
+  height: 200px;
+}
+
+.trailer p {
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+
 }
