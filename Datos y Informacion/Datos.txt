@@ -17,3 +17,22 @@ Nos guiamos de los siguientes tipos de letras para la creación del texto de la 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+[Subtitulo] Donde sacamos las imagenes:
+
+Nos guiamos de las siguientes imagenes para la creación del diseño de la página web:
+1. Apartado de Imagenes: https://alphacoders.com/stranger-things-wallpapers
+2. Con este link puede entrar a un canva donde aparece el formato y la creacion de los principios del carrusel:
+    https://www.canva.com/design/DAGE-KnLFho/JO-_aYpfztVIaJj2CVjLYA/edit?utm_content=DAGE-KnLFho&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[Subtitulo] Donde sacamos los links para los trailers:
+
+Aqui el apartado de links de donde los sacamos para la creacion de los trailers:
+    Fuente: Youtube y apartados de Netflix trailers
+- https://www.youtube.com/embed/x7Yq9MJUqjY?rel=0
+- https://www.youtube.com/embed/2RKHhfls0Fo?rel=0
+- https://www.youtube.com/embed/6BnPEXNt0Vo?rel=0
+- https://www.youtube.com/embed/32qjg3lg7gA?rel=0
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
