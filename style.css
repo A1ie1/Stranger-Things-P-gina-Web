@@ -204,28 +204,89 @@ section h2 {
   /* Cambia el valor según lo grande que quieras que sea la imagen */
 }
 
-/* trailers */
-.trailers {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 20px;
+.temporadas-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
 }
 
-.trailer {
-  width: 300px;
-  margin-bottom: 20px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.temporadas-list li {
+  list-style: none;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.trailer iframe {
+.temporadas-list img {
   width: 100%;
-  height: 200px;
+  height: auto;
+  border-bottom: 2px solid #fff;
 }
 
-.trailer p {
-  padding: 10px;
-  text-align: center;
+.temporada-info {
+  padding: 20px;
+}
+
+.temporada-info h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.temporada-info p {
+  color: #ccc;
+  font-size: 16px;
+}
+
+/* Estilos para la sección de temporadas */
+#temporadas {
+  padding: 20px;
+  background-color: #000000;
+  color: #fff;
+}
+
+.temporada-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
   margin: 0;
+}
+
+.temporada-list li {
+  width: 48%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex; /* Para alinear imagen y contenido */
+}
+
+.temporada-list li:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.temporada-list li:nth-child(even) {
+  flex-direction: row;
+}
+
+.temporada-list img {
+  width: 40%; /* Tamaño de la imagen ajustado */
+  height: auto;
+  margin-right: 20px; /* Margen a la derecha de la imagen */
+}
+
+.temporada-info {
+  flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+  padding: 10px; /* Espaciado interno del contenido */
+}
+
+.temporada-info h3 {
+  font-size: 1.6em; /* Tamaño del título de la temporada */
+  margin-bottom: 10px;
+}
+
+.temporada-info p {
+  font-size: 1.2em; /* Tamaño del texto de la temporada */
+  line-height: 1.4;
 }
